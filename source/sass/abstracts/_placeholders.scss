@@ -1,0 +1,8 @@
+//
+// Abstracts :: Placeholders
+// --------------------------------------------------
+@mixin placeholder {
+  &.placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-webkit-input-placeholder { @content }
+}

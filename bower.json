@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "description": "Project Frontend Development",
+  "main": "gulpfile.js",
+  "authors": [
+    "bui.duc.cuong <bui.duc.cuong@framgia.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Front",
+    "End"
+  ],
+  "homepage": "https://github.com/buiduccuong30051989/Front-End-Kit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

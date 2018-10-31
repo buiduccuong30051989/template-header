@@ -1,0 +1,26 @@
+//
+// Abstracts :: Utility Classes
+// --------------------------------------------------
+@include media-breakpoint-up(xs) {  }
+@include media-breakpoint-up(sm) {  }
+@include media-breakpoint-up(lg) {
+  .lg--up__pdr--0 {
+    padding-right: 0!important;
+  }
+
+  .lg--up__pdl--0 {
+    padding-left: 0!important;
+  }
+}
+@include media-breakpoint-up(md) {  }
+@include media-breakpoint-up(xl) {  }
+
+@include media-breakpoint-down(xs) {  }
+@include media-breakpoint-down(sm) {  }
+@include media-breakpoint-down(md) {
+  .md--down__pdr--0 {
+    padding-right: 0!important;
+  }
+}
+@include media-breakpoint-down(lg) {  }
+@include media-breakpoint-down(xl) {  }
